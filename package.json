@@ -1,0 +1,27 @@
+{
+  "name": "electronreloadtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeehunter/electron-relaunch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeehunter/electron-relaunch/issues"
+  },
+  "homepage": "https://github.com/Jeehunter/electron-relaunch#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "electron": "^25.3.2"
+  },
+  "dependencies": {
+    "@electron-forge/maker-deb": "^6.2.1"
+  }
+}
